@@ -46,11 +46,17 @@ The main goal of this project is to:
 
 4_DVWA_Login.png – DVWA successful login screen.
 
+---
+
 📄 Final Report
 Please refer to Security_Threat_Identification_Report.txt for the full explanation of each step, tools used, observations, and conclusions.
 
+---
+
 👩‍💻 Author
 Syeda Alia Samia
+
+---
 
 🏁 Conclusion
 This project gave hands-on experience in identifying threats using real-time tools. It showcases practical knowledge in ethical hacking, vulnerability detection, and initial phase of penetration testing.
