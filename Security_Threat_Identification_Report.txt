@@ -1,0 +1,70 @@
+Security Threat Identification Report
+
+
+1. Reconnaissance (Nmap Scan)
+
+Objective: Scan Metasploitable for open ports and running services.
+
+Nmap Command:
+nmap -sS -sV -O 192.168.56.102
+
+Findings:
+
+Open Ports:
+
+FTP (Port 21: vsftpd 2.3.4)
+
+SSH (Port 22: OpenSSH 4.7p1)
+
+HTTP (Port 80: Apache httpd 2.2.8)
+
+MySQL (Port 3306: MySQL 5.0.51a-3ubuntu5)
+
+VNC (Port 5900)
+
+Services: Various services like FTP, SSH, MySQL, Apache, etc., are running on the machine.
+
+Screenshot:
+
+Nmap Scan Result: Kali_Nmap_scan.png (Please find this screenshot in the submitted folder)
+
+2. Network Traffic Analysis (Wireshark)
+
+Objective: Capture traffic between Kali and Metasploitable.
+
+Capture Details:
+
+Filter applied: ip.addr == 192.168.56.102
+
+Traffic: HTTP requests between Kali and Metasploitable.
+
+Screenshot:
+
+Wireshark Capture: Kali_Wireshark_capture.png (Please find this screenshot in the submitted folder)
+
+3. DVWA Login Screenshot
+
+Objective: Show successful login to DVWA on Metasploitable.
+
+Screenshot:
+
+DVWA Login: Kali_DVWA_logged_in.png (Screenshot showing the successful login to DVWA, included in the submitted folder)
+
+4. Conclusion
+
+Metasploitable has several open ports and running services that may be vulnerable, such as FTP, SSH, and Apache.
+
+Wireshark shows HTTP traffic, indicating active communication with vulnerable web services on Metasploitable.
+
+Recommended Mitigations:
+
+Close unnecessary ports (FTP, Telnet)
+
+Update outdated services (Apache, MySQL)
+
+Disable unused services (VNC, Samba)
+
+
+
+
+
