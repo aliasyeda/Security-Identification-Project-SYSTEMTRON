@@ -36,4 +36,21 @@ The main goal of this project is to:
 5. Collected screenshots for all the above steps.
 
 ---
+📸 Screenshots Included
 
+1_Kali_Linux_Open.png – Terminal open on Kali.
+
+2_Nmap_Scan_Result.png – Nmap command + IP scanned.
+
+3_Wireshark_Capture.png – Packet capture terminal output.
+
+4_DVWA_Login.png – DVWA successful login screen.
+
+📄 Final Report
+Please refer to Security_Threat_Identification_Report.txt for the full explanation of each step, tools used, observations, and conclusions.
+
+👩‍💻 Author
+Syeda Alia Samia
+
+🏁 Conclusion
+This project gave hands-on experience in identifying threats using real-time tools. It showcases practical knowledge in ethical hacking, vulnerability detection, and initial phase of penetration testing.
